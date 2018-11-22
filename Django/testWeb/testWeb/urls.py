@@ -18,5 +18,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('myapp/', include('myapp.urls')),#在这里引入myapp应用的路由配置
+    path('blog/', include('blog.urls')),#在这里引入blog应用的路由配置
     path('admin/', admin.site.urls),
 ]
