@@ -243,3 +243,71 @@ lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
 probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
 bind(): Address already in use [core/socket.c line 769]
+DAMN ! worker 1 (pid: 13157) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 21129)
+DAMN ! worker 1 (pid: 21129) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 21161)
+DAMN ! worker 1 (pid: 21161) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 21180)
+Fri Nov 23 18:10:15 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov 23 18:10:25 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 23 18:11:07 2018] ***
+compiled with version: 5.4.0 20160609 on 23 November 2018 03:27:50
+os: Linux-4.4.0-130-generic #156-Ubuntu SMP Thu Jun 14 08:53:28 UTC 2018
+nodename: VM-0-7-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Django/Django/testWeb
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/Django/Django/testWeb
+your processes number limit is 7332
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 23 18:12:21 2018] ***
+compiled with version: 5.4.0 20160609 on 23 November 2018 03:27:50
+os: Linux-4.4.0-130-generic #156-Ubuntu SMP Thu Jun 14 08:53:28 UTC 2018
+nodename: VM-0-7-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Django/Django/testWeb
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/Django/Django/testWeb
+your processes number limit is 7332
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 23 18:14:04 2018] ***
+compiled with version: 5.4.0 20160609 on 23 November 2018 03:27:50
+os: Linux-4.4.0-130-generic #156-Ubuntu SMP Thu Jun 14 08:53:28 UTC 2018
+nodename: VM-0-7-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Django/Django/testWeb
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/Django/Django/testWeb
+your processes number limit is 7332
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
